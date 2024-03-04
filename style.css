@@ -100,10 +100,13 @@ section{
 }
 .img2{
   position: absolute;
-  top: 800px;
+  top: 700px;
   left: 950px;
 }
 
+.img2 > img{
+    height: 430px;
+}
 section > .text2 > h1{
 
     font-size: 35px;
