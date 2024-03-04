@@ -1,0 +1,333 @@
+@charset "UTF-8";
+
+@media screen and (min-width:200px) and (max-width: 650px){
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom , #00C1FA , #0061EB ) ;
+    padding: 30px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    text-align: center;
+    width: 104vw;
+}
+a {
+     text-decoration: none;
+}
+header > nav > a{
+   padding: 18px;
+    font-weight: bolder;
+   color: #ffffff;
+}
+
+header > nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    font-family: 'Poppins';
+    height: 1300px;
+}
+
+div.text{
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    margin-left: 10%;
+    padding-top: 10%;
+    
+    text-align: center;
+}
+.text > h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+div.img{
+    
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px; 
+    color: white;
+    width: 120vw;
+    
+}
+
+input.zap{
+    height: 100px;
+    width: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    font-family: 'montserrat';
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #0076EE;
+    border-radius: 15px;
+}
+main > .img > .text > a > .zap:hover{
+    border: 3px solid #ffffff ;
+    transition: 0.5s, border 1s;
+}
+section{
+    font-weight: bold;
+    padding: 30px;
+}
+.text2{
+    position: relative;
+    font-size: 16px;
+    margin-left: 20%;
+    text-align: center;
+}
+.img2{
+display: none;
+}
+
+section > .text2 > h1{
+
+    font-size: 35px;
+    color: #3A4A92;
+    text-align: left;
+}
+section > .text2 > p{
+    display: inline;
+}
+
+
+.p3 > div.text3{
+    
+    background-image: url(img/eletricista.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    color: white;
+    margin: -30px;
+    width: 120vw;
+}
+.p3 > .text3 > h1{
+    text-align: center;
+    margin-top: 13px;
+    padding: 15px 0px 0px 20px;
+}
+.p3 > .text3 > p{
+    padding: 20px;
+}
+.p3 > .text3 > .img3{
+    width: 400px;
+}
+
+.d0{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+
+.d{
+    columns: 2;
+    text-align: center;
+    margin-left: 25px;
+}
+.d1 , .d2 , .d3 , .d4 , .d5 , .d6 {
+    width: 200px;
+    height: 350px;
+    background-image: linear-gradient(to bottom , #00C2FA , #0060EB);
+    display:inline-block;
+    border-radius: 30px 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: 'Poppins';
+    color: white;
+    box-shadow: 1px 1px 10px black;
+   
+  
+}
+.d1 , .d2 , .d3 , .d4 , .d5 , .d6 > img{
+    padding-top: 5px;
+}
+.d1  .d2  .d3  .d4  .d5  .d6 > h2 , p{
+    margin: 20px; 
+    font-size: 16px;
+}
+
+.d6 > h2{
+    margin-left: 10px;
+}
+.d1  > a{
+    background-color: black;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    border-radius: 9px;
+   
+}
+.d2  > a{
+    background-color: black;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    border-radius: 9px;
+}
+.d3  > a{
+    background-color: black;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    border-radius: 9px;
+}
+.d4  > a{
+    background-color: black;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    border-radius: 9px;
+}
+.d5  > a{
+    background-color: black;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    border-radius: 9px;
+}
+.d6  > a{
+    background-color: black;
+    padding: 8px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 9px;
+}
+
+
+
+.d1 > a:hover{
+    background-color: green;
+}
+
+
+.d1 > a:hover{
+    background-color: green;
+}
+
+
+.d2 > a:hover{
+    background-color: green;
+}
+
+
+.d3 > a:hover{
+    background-color: green;
+}
+
+
+.d4 > a:hover{
+    background-color: green;
+}
+
+
+.d5 > a:hover{
+    background-color: green;
+}
+
+.d6 > a:hover{
+    background-color: green;
+}
+
+.text4 {
+
+    padding-top:15px ;
+
+    margin-left: 24%;
+}
+.text4 > h3{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-size: 1.6em;
+    width: 300px;
+}
+.text4 > ul{
+    margin-left: 40px;
+    line-height: 48px;
+}
+
+.text4 > .img4 {
+    display: none;
+}
+.iframe{
+    width: 120vw;
+}
+.iframe > h1{
+    font-family: 'Poppins';
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.text5e6{
+    margin-left: 15%;
+   
+    
+}
+.text5e6 > .text5 >  ul > li > h2{
+    color: blue;
+}
+.text6{
+    margin-top: 30px;
+}
+
+.text6  > h1{
+    text-shadow: 1px 1px 1px black;
+}
+.text5e6 > .text6 > form > input {
+    height: 50px;
+    border: solid 2px black;
+    width: 300px;
+}
+.text5e6 > .text6 > form > label{
+    font-weight: bold;
+    font-size: 25px;
+} 
+
+
+.zap2{
+    height: 100px;
+    width: 250px;
+    margin-top: 15px;
+    font-family: 'montserrat';
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #0076EE;
+    border-radius: 15px;
+}
+.zap3{
+    height: 100px;
+    width: 250px;
+    margin-top: 30px;
+    font-family: 'montserrat';
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #0076EE;
+    border-radius: 15px;
+}
+
+
+
+}
