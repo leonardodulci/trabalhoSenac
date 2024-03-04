@@ -342,4 +342,10 @@ section > .text2 > p{
     background-color: #0076EE;
     border-radius: 15px;
 }
+
+.footer > p {
+    text-align: center;
+    background-color: gray;
+}
+
 }
