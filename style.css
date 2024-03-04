@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width:767px) and (max-width: 1400px){
+@media screen and (min-width:767px) and (max-width: 2500px){
     
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
@@ -135,7 +135,8 @@ section > .text2 > p{
 }
 .d0{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .d{
@@ -289,7 +290,14 @@ section > .text2 > p{
     margin-left: 24%;
     position: relative;
     width: 500px;
+    margin-top: 25px;
     
+}
+.text5e6 > .text5 > h1{
+    text-shadow: 1px 1px 1px black;
+}
+.text5e6 > .text6 > h1{
+    text-shadow: 1px 1px 1px black;
 }
 .text5e6 > .text5 >  ul > li > h2{
     color: blue;
